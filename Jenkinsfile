@@ -25,7 +25,7 @@ pipeline {
                 echo "what myFile"
                 sh "pwd"
                 sh "ls -lah"
-                // sh "cat myFile" 
+                sh "cat myFile" 
             }
         }
     }
